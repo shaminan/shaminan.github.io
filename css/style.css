@@ -231,6 +231,7 @@ footer p a {
 	nav li {
 		display: inline-block;
 		font-size: 2em;
+		border: none;
 	}
 
 	nav li:nth-child(4) {
