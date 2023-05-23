@@ -59,7 +59,7 @@ nav li:first-child {
 
 nav li a {
 	display: block;
-	color: #01361a;
+	color: #028a0f;
 	padding: 0.5em 1em;
 	text-decoration: none;
 }
@@ -84,17 +84,17 @@ main {
 	display: block;
 	text-align: center;
 	font-size: 1.5em;
-	color: #01361a;
+	color: #028a0f;
 }
 
 .specialties {
 	display: block;
 	text-align: center;
-	color: #01361a;
+	color: #028a0f;
 }
 
 h1, h2, h4 {
-	color: #01361a;
+	color: #028a0f;
 }
 
 .grid {
@@ -115,12 +115,12 @@ h1, h2, h4 {
 }
 
 #contact .tel-link {
-	color: #01361a;
+	color: #028a0f;
 	text-decoration: none;
 }
 
 #contact .contact-email-link {
-	color: #01361a;
+	color: #028a0f;
 	text-decoration: none;
 }
 .action {
@@ -137,12 +137,12 @@ h1, h2, h4 {
 footer p {
 	font-size: 0.75em;
 	text-align: center;
-	color: #01361a;
+	color: #000;
 	padding: 0 1em;
 }
 
 footer p a {
-	color: #01361a;
+	color: #000;
 	text-decoration: none;
 }
 
