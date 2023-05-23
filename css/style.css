@@ -137,13 +137,118 @@ h1, h2, h4 {
 footer p {
 	font-size: 0.75em;
 	text-align: center;
-	color: #000;
+	color: #028a0f;
 	padding: 0 1em;
 }
 
 footer p a {
-	color: #000;
+	color: #028a0f;
 	text-decoration: none;
 }
 
+/*Media Query for Tablet viewport*/
+@media screen and (min-width: 630px) {
 	
+
+	/*Tablet Viewport: Show tablet-desktop class, hide mobile class */
+	.tablet-desktop {
+		display: block;
+	}
+
+	.mobile {
+		display:none;
+	}
+
+	/*Tablet Viewport: Style rule for header */
+	header {
+		position: static;
+		padding-bottom: 2%;
+	}
+
+	/*Tablet Viewport: Style rules for nav area */
+	nav li {
+		border-top: none;
+		display: inline-block;
+		border-right: 1px solid #000;
+	}
+
+	nav li:last-child {
+		border-right: none;
+	}
+
+	nav li a {
+		padding: 0.1em 0.75em;
+	}
+
+	/*Tablet Viewport: style rules for main content area */
+	main ul {
+		margin: 0 0 4% 10%
+	}
+
+	.tel-num {
+		font-size: 1.25em;
+	}
+
+	.map {
+		width: 600px;
+		height: 450px;
+	}
+
+}
+
+/*Media Query for Desktop viewport*/
+@media screen and (min-width: 769px) {
+	
+	/*Desktop Viewport: Style rule for header */
+	header {
+		width: 25%;
+		float: left;
+		padding-bottom: 0;
+		height: 250px;
+	}
+	
+	header img {
+		height: 250px;
+	}
+	
+	/*Desktop Viewport: Style rules for nav area*/
+	nav {
+		float: right;
+		width: 70%;
+		margin: 4em 1em 0 0;
+	}
+
+	nav ul {
+		list-style-type: none;
+		margin: 0;
+		text-align: center;
+	}
+
+	nav li {
+		display: inline-block;
+		font-size: 2em;
+	}
+
+	nav li:nth-child(4) {
+		border-right: none;
+	}
+	
+	nav li a {
+		display: block;
+		color: #028a0f;
+		text-align: center;
+		padding: 0.5em 1em;
+		text-decoration: none;
+	}
+	
+	/*Desktop Viewport: Style Rules for main content*/
+	main {
+		clear: left;
+		font-size: 2em;
+	}
+	
+	.map {
+		border: 8px solid #000;
+		
+	{
+}
