@@ -147,7 +147,7 @@ footer p a {
 }
 
 /*Media Query for Tablet viewport*/
-@media screen and (min-width: 630px) {
+@media screen and (min-width: 630px), print {
 	
 
 	/*Tablet Viewport: Show tablet-desktop class, hide mobile class */
@@ -172,6 +172,10 @@ footer p a {
 		border-right: 1px solid #000;
 	}
 
+	nav li:nth-child(4) {
+		border-right: none;
+	}
+	
 	nav li:last-child {
 		border-right: none;
 	}
@@ -197,7 +201,7 @@ footer p a {
 }
 
 /*Media Query for Desktop viewport*/
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1015px), print {
 	
 	/*Desktop Viewport: Style rule for header */
 	header {
@@ -249,6 +253,27 @@ footer p a {
 	
 	.map {
 		border: 8px solid #000;
-		
 	{
+}
+
+/*Media Query for Large Desktop Viewports*/
+@media screen and (min-width: 1921px) {
+	
+	#container {
+		width: 1920px;
+		margin: 0 auto;
+	}
+	
+}
+
+/*Media Query for Print */
+@media print {
+	
+	body {
+		background-color: #fff;
+		color: #000;
+	}
+	
+	
+	
 }
