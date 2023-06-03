@@ -72,10 +72,12 @@ nav li a {
 /*Show mobile class, hide tablet-desktop class*/
 .mobile {
 	display: block;
+	text-align: center;
 }
 
 .tablet-desktop {
 	display: none;
+	text-align: center;
 }
 
 /*Style rules for main content*/
@@ -84,6 +86,7 @@ main {
 	padding: 2%;
 	font-size: 1.15em;
 	font-family: 'Bree Serif', serif;
+	
 }
 .emphasis {
 	display: block;
@@ -165,27 +168,19 @@ footer p a {
 	}
 
 	/*Tablet Viewport: Style rule for header */
-	header {
+	header {	
 		position: static;
 		padding-bottom: 2%;
 	}
 
 	/*Tablet Viewport: Style rules for nav area */
-	nav li {
+
+		nav li {
 		border-top: none;
 		display: inline-block;
 		border-right: none;
 	}
-
-	nav li:nth-child(4) {
-		border-right: none;
-	}
-	
-	nav li:last-child {
-		border-right: none;
-	}
-
-	nav li a {
+		nav li a {
 		padding: 0.1em 0.75em;
 	}
 
