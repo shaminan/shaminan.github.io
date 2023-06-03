@@ -95,6 +95,9 @@ main {
 .grid {
 	display: none;
 }
+.about-copy {
+	display: none;
+}
 
 .emphasis {
 	display: block;
@@ -165,6 +168,7 @@ footer p a {
 	.tablet-desktop {
 		display: block;
 	}
+	
 
 	.mobile {
 		display:none;
@@ -209,6 +213,9 @@ footer p a {
 	}
 	.grid-container {
 		display: none;
+	}
+	.about-copy {
+		display: block;
 	}
 }
 
