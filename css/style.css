@@ -86,8 +86,16 @@ main {
 	padding: 2%;
 	font-size: 1.15em;
 	font-family: 'Bree Serif', serif;
-	
 }
+
+.grid-container {
+	grid-template-columns: auto;
+}
+
+.grid {
+	display: none;
+}
+
 .emphasis {
 	display: block;
 	text-align: center;
@@ -103,14 +111,9 @@ main {
 
 h1, h2, h4 {
 	color: #507963;
+	text-align: center;
 }
 
-.grid {
-	display: grid;
-	grid-template-columns: auto auto auto auto;
-	grid-gap: 20px;
-	place-items: center;
-}
 
 .round {
 	border-radius: 8px;
@@ -198,6 +201,15 @@ footer p a {
 		height: 450px;
 	}
 
+	.grid {
+		display: grid;
+		grid-template-columns: auto auto auto auto;
+		grid-gap: 20px;
+		place-items: center;
+	}
+	.grid-container {
+		display: none;
+	}
 }
 
 /*Media Query for Desktop viewport*/
