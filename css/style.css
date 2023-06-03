@@ -216,6 +216,7 @@ footer p a {
 	}
 	.about-copy {
 		display: block;
+		padding: 0 10%;
 	}
 }
 
