@@ -92,6 +92,18 @@ main {
 	grid-template-columns: auto;
 }
 
+.mobile-pricing {
+	display: grid;
+	margin: 0 auto;
+	grid-template-columns: auto;
+	place-items: center;
+	grid-gap: 16px;
+	width: 100%;
+}
+.tabdesk-pricing {
+	display: none;
+}
+
 .grid {
 	display: none;
 }
@@ -222,6 +234,13 @@ footer p a {
 	.about-copy {
 		display: block;
 		padding: 0 10%;
+	}
+	.mobile-pricing {
+		display: none;
+	}
+	
+	.tabdesk-pricing {
+		display: grid;
 	}
 	
 	.tile-grid {
