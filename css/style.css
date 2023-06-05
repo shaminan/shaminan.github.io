@@ -230,7 +230,9 @@ footer p a {
 		grid-gap: 20px;
 		place-items: center;
 		padding-top: 20px;
+		padding-bottom: 30px;
 	}
+	
 }
 
 /*Media Query for Desktop viewport*/
