@@ -88,16 +88,21 @@ main {
 	font-family: 'Bree Serif', serif;
 }
 
+.price-text ul {
+	padding-left: 20px;
+}
+
 .grid-container {
 	grid-template-columns: auto;
 }
 
 .mobile-pricing {
-	display: inline-block;
+	display: block;
 	place-items: center;
 	width: auto;
 	text-align: center;
 }
+
 	
 .tabdesk-pricing {
 	display: none;
