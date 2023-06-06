@@ -5,7 +5,7 @@ File Name: styles.css
 */
 
 /* CSS Reset */
-body, header, nav, main, footer, h1, div, img, h2, h3, h4, grid, tile-grid, ul {
+body, header, nav, main, footer, h1, div, img, h2, h3, h4, grid, tile-grid, tile-grid2, ul {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -93,13 +93,12 @@ main {
 }
 
 .mobile-pricing {
-	display: grid;
-	margin: 0 auto;
-	grid-template-columns: auto;
+	display: inline-block;
 	place-items: center;
-	grid-gap: 16px;
-	width: 100%;
+	width: auto;
+	text-align: center;
 }
+	
 .tabdesk-pricing {
 	display: none;
 }
@@ -151,7 +150,7 @@ h3 {
 }
 
 #contact .contact-email-link {
-	color: #507963f;
+	color: #507963;
 	text-decoration: none;
 }
 .action {
@@ -307,7 +306,7 @@ footer p a {
 	
 	.map {
 		border: 8px solid #000;
-	{
+	}
 }
 
 /*Media Query for Large Desktop Viewports*/
